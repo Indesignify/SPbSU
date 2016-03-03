@@ -1,4 +1,4 @@
--- reversing the list
+-- reversing a list
 supReverse :: [a] -> [a] -> [a]
 supReverse l [] = l
 supReverse y (x : xs) = supReverse (x : y) xs
